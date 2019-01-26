@@ -1,26 +1,20 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Crypto from './components/Crypto.js'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <React.Fragment>
+        <div className="App">
+          <div className="App-header">
+            <h1 className="greetings">Welcome to <i className="fab fa-bitcoin"></i>rypto!</h1>
+            <p>Just displaying some crypto information!</p>
+            <i className="fas fa-angle-double-down"></i>
+          </div>
+        </div>
+        <Crypto />
+      </React.Fragment>
     );
   }
 }
