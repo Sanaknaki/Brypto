@@ -1,7 +1,7 @@
-Playing around with `ReactJS` and utilizing the `CoinMarketCap` API.
-Displaying/Ranking the top 100 cryptocurrencies.
+## Playing around with `ReactJS` and utilizing the `CoinMarketCap` API.
+## Displaying/Ranking the top 100 cryptocurrencies.
 
-## How To Run
+### How To Run
 
 ```javascript
 console.log("Download the project!");
